@@ -155,7 +155,7 @@ body {
   .main-container-registration .main-container-info {
     max-width: 750px; }
     .main-container-registration .main-container-info .main-heading {
-      font-size: 50px;
+      font-size: 40px;
       text-align: center; }
     .main-container-registration .main-container-info .registration-form {
       flex-direction: column;
@@ -177,6 +177,8 @@ body {
       order: -1; }
     .main-full-description .wrapper-full-description .main-full-description-customize-img {
       order: -5; }
+    .main-full-description .wrapper-full-description .col .full-description {
+      margin: 100px auto; }
   .main-short-description-reviews {
     padding: 100px 0 450px 0; }
     .main-short-description-reviews .wrapper-description-reviews {
@@ -184,11 +186,20 @@ body {
       .main-short-description-reviews .wrapper-description-reviews .wrapper-col-reviews + .wrapper-col-reviews {
         margin: 400px 0 400px 0; }
   .main-container-registration-small .main-container-info .main-heading {
-    font-size: 40px;
+    font-size: 35px;
     margin: 0; }
   .footer-wrapper {
     flex-direction: column;
     align-items: center;
-    justify-content: center; }
-    .footer-wrapper .nav-copyright-wrapper .footer-copyright {
-      padding: 0 60px; } }
+    justify-content: center;
+    padding: 20px 0; }
+    .footer-wrapper .nav-copyright-wrapper {
+      margin-bottom: 20px; }
+      .footer-wrapper .nav-copyright-wrapper .footer-nav-wrapper {
+        flex-direction: column;
+        align-items: center; }
+        .footer-wrapper .nav-copyright-wrapper .footer-nav-wrapper .nav-link::before {
+          content: "";
+          display: none; }
+      .footer-wrapper .nav-copyright-wrapper .footer-copyright {
+        padding: 0 20px; } }
